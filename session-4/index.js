@@ -1,6 +1,17 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
 
+let personA = {
+    name: 'Alissa',
+    likes: 'PS4',
+    location: 'France',
+    Age: '36'
+}
 
+
+personA.name = 'Alissa';
+personA.likes = 'PS4';
+personA.location = 'France';
+personA.age = '36';
 
 
 
@@ -19,42 +30,47 @@
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-// const x = 6;
-// const y = 4;
+const x = 100;
+const y = 50;
 
-// const addition = x + y;
+const addition = x + y;
 
-// console.log("Addition: x + y " + addition);
+console.log("addition: x + y " + addition);
 
-// const subtraction = x - y;
+const subtraction = x - y;
 
-// console.log("Subtraction: x - y " + subtraction);
+console.log("subtraction: x - y " + subtraction);
 
-// const multiplication = x * y;
+const multiplication = x * y;
 
-// console.log("multiplication: x * y " + multiplication);
+console.log("multiplication: x * y " + multiplication);
 
-// const division = x * y;
+const division = x * y;
 
-// console.log("Division: x + y " + division);
-
-
+console.log("division: x + y " + division);
 
 
+console.log("multiplication: x * x " + multiplication);
 
 
+console.log("Addition: x + x + y " + addition);
 
 
+console.log("multiplication, division: (x * y) / x " + multiplication, division)  
 
+const modulus = x % y;
 
-
-
-
-
+console.log("remainder: x % y =" + modulus) ;
 
 // ****************************************************TASK 3****************************************************
 
 
+const myAge = 21;
+const drivingAge = 18;
+
+const IsdrivingAge = myAge > drivingAge;
+
+console.log('Im I old enough to drive?' + IsdrivingAge)
 
 
 
