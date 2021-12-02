@@ -29,3 +29,9 @@ function conversation() {
 };
 conversation();
 
+function futureAge(name,ageIn5Years) {
+    sayHey();
+    console.log(name + " you will be " + ageIn5Years + " in 5 years") };
+    futureAge("Mary", "22");
+    futureAge("Chicken", "22");
+
