@@ -9,8 +9,23 @@ console.log(c);
 
 a = 100;
 
-console.log('After a has been updated'+c);
+console.log('After a has been updated' +c);
 
 c = a + b;
 
-console.log('After a has been updated with the new a value'+c);
+console.log('After a has been updated with the new a value' +c);
+
+
+// **********************TASK 2*********************************************************
+
+function sayHey() {
+    console.log("Hey!")
+};
+
+function conversation() { 
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodbye");
+};
+conversation();
+
