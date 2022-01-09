@@ -39,3 +39,6 @@ if (total <30) {
 }
 }
 
+console.log(getGrade(92));
+
+
